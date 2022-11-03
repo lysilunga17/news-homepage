@@ -1,0 +1,16 @@
+.cards, .card {
+    display: flex; 
+}
+.card {
+    gap: 15px;
+}
+.card__title > a {
+    color: hsl(var(--very-dark-blue));
+    text-decoration: none;
+    font-weight: bold;
+}
+.card__number {
+    color: hsl(var(--grayish-blue));
+    font-size: 30px;
+    font-weight: bold;
+}
