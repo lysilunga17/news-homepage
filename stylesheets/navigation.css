@@ -1,0 +1,18 @@
+nav {
+  background: #fefdf9;
+  padding: 0 20px;
+};
+li {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+};
+li:hover {
+  color: red;
+};
+
+/* for the navigation on mobile*/
+nav {
+  display: flex;
+  align-items: center;
+};
